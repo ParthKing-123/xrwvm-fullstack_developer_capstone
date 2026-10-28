@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us - Best Cars Dealership</title>
+
+  <!-- CSS links -->
+  <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/style.css">
+
+  <style>
+    body { background: #f5f7fa; }
+    .team-card { border: none; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,.1); }
+    .team-card img { width: 140px; height: 140px; object-fit: cover; border-radius: 50%; margin: 20px auto 0; }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="/">Best Cars</a>
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        <li class="nav-item"><a class="nav-link active" href="/about">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container my-5">
+    <h1 class="text-center mb-3">About Us</h1>
+    <p class="text-center text-muted mb-5">
+      Welcome to Best Cars, a national car retailer in the U.S. with dealerships
+      across many states. We help customers find the right car and share honest
+      reviews about their dealership experience.
+    </p>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="James Carter">
+          <div class="card-body">
+            <h5 class="card-title">James Carter</h5>
+            <h6 class="text-primary">Chief Executive Officer</h6>
+            <p class="card-text">Leads the company vision with 20+ years in the automotive industry.</p>
+            <a href="mailto:james.carter@bestcars.com">james.carter@bestcars.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Emily Johnson">
+          <div class="card-body">
+            <h5 class="card-title">Emily Johnson</h5>
+            <h6 class="text-primary">Head of Customer Experience</h6>
+            <p class="card-text">Makes sure every customer review is heard and every visit is great.</p>
+            <a href="mailto:emily.johnson@bestcars.com">emily.johnson@bestcars.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card team-card text-center">
+          <img src="https://randomuser.me/api/portraits/men/65.jpg" alt="Michael Rodriguez">
+          <div class="card-body">
+            <h5 class="card-title">Michael Rodriguez</h5>
+            <h6 class="text-primary">Lead Software Engineer</h6>
+            <p class="card-text">Builds and maintains the dealership platform and review services.</p>
+            <a href="mailto:michael.rodriguez@bestcars.com">michael.rodriguez@bestcars.com</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>
